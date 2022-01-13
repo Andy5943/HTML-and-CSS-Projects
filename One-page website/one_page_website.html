@@ -4,17 +4,18 @@
 		<p>
 		<title>Different turtle breeds</title>
 		<meta Charset="utf-8">
+		<link rel="stylesheet" href="./CSS/shared_turtle.css">
+		<link rel="stylesheet" href="./CSS/animations_turtle.css">
 		</p>
 	</head>
 	<body>
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
-					<a href="#video"><li>VIDEO</li></a>
 					<a href="#contact"><li>RESERVATIONS</li></a>
 				</ul>
 			</div>
@@ -23,13 +24,12 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<span>All about turtles</span>
+			<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-span">All about turtles</span>
 				</div>
-				This section is about all the different facts and information you need to select which type of turtle suits you, as well as how to take care of them. 
 			</div>
-			turtles are sub aquadic creatures that spend most of their time it the water. Most breeds of turtles can be found in freshwater bodies, such as rivers, ponds, and lakes. These creatures are solitary, oportunistic animals. They dont really hunt for food, they really just roam around and find whatever they can get. this includes small fish, shrimp, crayfish, insects, and tadpoles. Turtles are coldblooded animals that regulate their body tempurature by sunning themselves on large rocks that heat up in the day time. in the winter when its cold, turtles like to burrow underground and hybernate. To take care of a turtle, they need plenty of water to swim in, as well as a heat lamp and a uv lamp to get the right amount of nutrients for shell growth. another important thing for turtle is a balanced diet to get all their vitamins essential for growth. 
 		</div>
 		<!-- END HOME -->
 		
@@ -39,22 +39,24 @@
 				<h1>Gallery</h1>
 				<div>
 					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="red eared slider.jpg" alt="this is a picture of a red eared slider">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
+								<p>we have many different turtles available, get yours today!</p>
 							</div>
 						</div>
 					</div>
 					<!-- END PHOTO CONTAINER -->
 					
 					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="yellow bellied slider.jpg" alt="this is a picture of a yellow bellied slider">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
+								<p>we have many different turtles available, get yours today!</p>
 								
 							</div>
 						</div>
@@ -62,11 +64,12 @@
 					<!-- END PHOTO CONTAINER -->
 					
 					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="terrapin.jpg" alt="this is a picture of a terrapin turtle">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
+								<p>we have many different turtles available, get yours today!</p>
 								
 							</div>
 						</div>
@@ -74,11 +77,12 @@
 					<!-- END PHOTO CONTAINER -->
 					
 					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="painted turtle.jpg" alt="this is a picture of a apinted turtle">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
+								<p>we have many different turtles available, get yours today!</p>
 								
 								
 						</div>
@@ -86,11 +90,12 @@
 					<!-- END PHOTO CONTAINER -->
 					
 					<!-- PHOTO-CONTAINER 5 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="long neck turtle.jpg" alt="this is a picture of a long neck turtle">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
+								<p>we have many different turtles available, get yours today!</p>
 								
 							</div>
 						</div>
@@ -110,26 +115,27 @@
 		</div>
 		<!-- END VIDEO -->
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Questions and Answers</h1>
-					<div>
-						<h2><span>If you have any questions or are thinking about adopting, allow us to contact you to help you on your way .</span>
-						</h2>
-						<p>
-							Please provide us with your basic contact information.
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
+					<h2><span>we have turtles of all ages and sizes</span>
+					<br/>pick yours up today!
+					</h2>
+					<p class="rsvp-text"> 
+						Please provide us with your basic contact information.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="text" value="Email Address">
-								<input class="rsvp" type="text" value="Phone Number">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="Phone Number">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
